@@ -1,2 +1,2 @@
 # Node.js
-simple node.js apps and servers
+node.js apps and servers
