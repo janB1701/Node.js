@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		div{
+			margin: 4px;
+		}
+	</style>
+</head>
+<body>
+	<form action="/cars/addCar" method="POST">
+	<h3>Add new car</h3>
+	<div>
+		<label for="name">Model:</label>
+		<input type="text" name="name" id="name", size="30" require>
+	</div>
+	<div>
+		<label for="company">Company name:</label>
+		<input type="text" name="companyName" id="company" required>
+	</div>
+	<div>
+		<label for="country">Country: </label>
+		<input type="text" name="country" id="country" required>
+	</div>
+	<div>
+		<label for="yearOfEstablishment%">Established: </label>
+		<input type="yearOfEstablishment" name="yearOfEstablishment" id="yearOfEstablishment" required>
+	</div>
+	<div>
+		<label for="perishability">Perishability: </label>
+		<input type="perishability" name="perishability" id="perishability" required>
+	</div>
+	<button type="submit">Add</button>
+	</form>
+</body>
+</html>

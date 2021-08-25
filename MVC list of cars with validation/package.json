@@ -1,0 +1,18 @@
+{
+  "name": "carslist",
+  "version": "1.0.0",
+  "description": "list of random cars made with mvc",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "janbrkic3@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "https": "^1.0.0",
+    "node-fetch": "^2.6.1"
+  }
+}
